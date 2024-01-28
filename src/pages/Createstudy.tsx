@@ -1,12 +1,11 @@
 import { useState } from "react";
 import Button from "../components/reuse/Button";
 import Input from "../components/reuse/Input";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { Createstud } from "../api/api";
 
 
 const Createstudy = () => {
-    const navigate = useNavigate();
     const [state, setState] = useState<string>("");
     const [state2, setstate2] = useState<string>("");
     const [state3, setstate3] = useState<string>("");

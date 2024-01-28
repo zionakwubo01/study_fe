@@ -1,11 +1,9 @@
 import { useState } from "react";
 import Button from "../components/reuse/Button";
 import Input from "../components/reuse/Input";
-import { FaGoogle } from "react-icons/fa6";
-import { Link, useNavigate } from "react-router-dom";
-import { Createuser } from "../api/api";
-// import Loading from "../../components/load/Loading";
 
+import { useNavigate } from "react-router-dom";
+import { Createuser } from "../api/api";
 const Register = () => {
     const navigate = useNavigate();
     const [state, setState] = useState<string>("");
@@ -82,9 +80,6 @@ const Register = () => {
             </form>
             <div className="mt-5 text-[13px]">
                 Already have an Account?{" "}
-                <span className="font-bold text-blue-900">
-                    <Link to="/Login">Login here</Link>
-                </span>
             </div>
         </div>
     );

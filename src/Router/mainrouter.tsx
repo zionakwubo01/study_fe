@@ -6,7 +6,6 @@ import Verify from "../pages/Verify"
 import Login from "../pages/Login"
 import AuthLayout from "../Lay/AuthLayout"
 import Layout from "../Lay/Layout"
-import Homescreen from "../Lay/Homescreen"
 import Createstudy from "../pages/Createstudy"
 
 

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Button from "../components/reuse/Button";
 import Input from "../components/reuse/Input";
-import { Link, useNavigate } from "react-router-dom";
-import { Createuser, Verifyuser } from "../api/api";
+import { useNavigate } from "react-router-dom";
+import { Verifyuser } from "../api/api";
 
 const Verify = () => {
     const navigate = useNavigate();

@@ -1,7 +1,5 @@
-import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Sider from '../components/static/Sider'
-import Header from '../components/static/Header'
 
 const Layout = () => {
     return (

@@ -1,4 +1,4 @@
-import { MdPeople, MdQueryStats, MdReport, MdSettings } from "react-icons/md";
+import { MdPeople, MdQueryStats, MdSettings } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import Button from "../reuse/Button";
 import { FaBarsProgress } from "react-icons/fa6";
